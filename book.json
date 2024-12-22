@@ -1,0 +1,15 @@
+{
+  "title": "Mega Solution Platform Documentation",
+  "description": "Comprehensive documentation for the Mega Solution Platform",
+  "author": "Horus Tatweer Team",
+  "structure": {
+    "readme": "README.md",
+    "summary": "SUMMARY.md"
+  },
+  "plugins": [
+    "-sharing",
+    "-fontsettings",
+    "search",
+    "theme-default"
+  ]
+}

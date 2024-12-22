@@ -1,0 +1,27 @@
+[submodule "codebase/mega-docs"]
+	path = codebase/mega-docs
+	url = https://github.com/horus-tatweer/mega-docs.git
+[submodule "codebase/mega-devops"]
+	path = codebase/mega-devops
+	url = https://github.com/horus-tatweer/mega-devops.git
+[submodule "codebase/mega-infrastructure"]
+	path = codebase/mega-infrastructure
+	url = https://github.com/horus-tatweer/mega-infrastructure.git
+[submodule "codebase/mega-service-auth"]
+	path = codebase/mega-service-auth
+	url = https://github.com/horus-tatweer/mega-service-auth.git
+[submodule "codebase/mega-service-communications"]
+	path = codebase/mega-service-communications
+	url = https://github.com/horus-tatweer/mega-service-communications.git
+[submodule "codebase/mega-service-finance"]
+	path = codebase/mega-service-finance
+	url = https://github.com/horus-tatweer/mega-service-finance.git
+[submodule "codebase/mega-service-hr"]
+	path = codebase/mega-service-hr
+	url = https://github.com/horus-tatweer/mega-service-hr.git
+[submodule "codebase/mega-service-projects"]
+	path = codebase/mega-service-projects
+	url = https://github.com/horus-tatweer/mega-service-projects.git
+[submodule "codebase/mega-solution-platform"]
+	path = codebase/mega-solution-platform
+	url = https://github.com/horus-tatweer/mega-solution-platform.git

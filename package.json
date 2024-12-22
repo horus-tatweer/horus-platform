@@ -1,0 +1,19 @@
+{
+  "name": "mega-docs",
+  "version": "1.0.0",
+  "description": "Mega Solution Platform Documentation",
+  "main": "index.js",
+  "scripts": {
+    "serve": "gitbook serve",
+    "build": "gitbook build",
+    "pdf": "gitbook pdf ./ ./mega-docs.pdf",
+    "epub": "gitbook epub ./ ./mega-docs.epub",
+    "mobi": "gitbook mobi ./ ./mega-docs.mobi"
+  },
+  "keywords": ["documentation", "gitbook", "mega-solution"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "gitbook-cli": "^2.3.2"
+  }
+}

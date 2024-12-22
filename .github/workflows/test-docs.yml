@@ -1,0 +1,31 @@
+name: Test Documentation
+
+on:
+  push:
+    paths:
+      - 'docs/**'
+      - '**.md'
+  pull_request:
+    paths:
+      - 'docs/**'
+      - '**.md'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '18'
+          
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y graphviz default-jre
+          npm install -g markdown-link-check markdownlint-cli markdown-code-runner spellchecker-cli
+          
+      - name: Run documentation tests
+        run: ./test-docs.sh

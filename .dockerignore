@@ -1,0 +1,7 @@
+_book/
+node_modules/
+*.pdf
+*.epub
+*.mobi
+.git/
+.gitignore
